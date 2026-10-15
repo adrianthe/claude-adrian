@@ -1,0 +1,10 @@
+node_modules/
+whisper.cpp/
+out/
+raw/
+public/cut/
+public/transcripts/*.wav
+public/sfx/
+public/assets/*.mp4
+plans/*-plan.json
+.DS_Store

@@ -1,0 +1,34 @@
+{
+  "name": "aigrowth-video-editing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render",
+    "still": "remotion still",
+    "whisper:install": "node --experimental-strip-types scripts/install-whisper.ts",
+    "transcribe": "node --experimental-strip-types scripts/transcribe.ts",
+    "typecheck": "tsc --noEmit",
+    "setup:sfx": "bash scripts/link-sfx.sh",
+    "cut": "python3 scripts/cut.py",
+    "plan-page": "python3 scripts/plan-page.py"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "@remotion/google-fonts": "4.0.535",
+    "@remotion/install-whisper-cpp": "4.0.535",
+    "@remotion/media": "4.0.535",
+    "@remotion/paths": "4.0.535",
+    "@remotion/shapes": "4.0.535",
+    "@remotion/transitions": "4.0.535",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}

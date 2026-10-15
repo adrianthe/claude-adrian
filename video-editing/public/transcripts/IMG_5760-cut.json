@@ -1,0 +1,905 @@
+{
+ "source": "raw/IMG_5760.MOV",
+ "cutVideo": "public/cut/IMG_5760-cut.mp4",
+ "duration": 42.745,
+ "fps": 30,
+ "segments": [
+  {
+   "srcIn": 0.684,
+   "srcOut": 2.205,
+   "at": 0.0
+  },
+  {
+   "srcIn": 2.501,
+   "srcOut": 3.831,
+   "at": 1.521
+  },
+  {
+   "srcIn": 4.1,
+   "srcOut": 7.794,
+   "at": 2.851
+  },
+  {
+   "srcIn": 8.056,
+   "srcOut": 11.268,
+   "at": 6.544
+  },
+  {
+   "srcIn": 11.443,
+   "srcOut": 13.328,
+   "at": 9.756
+  },
+  {
+   "srcIn": 13.492,
+   "srcOut": 15.555,
+   "at": 11.642
+  },
+  {
+   "srcIn": 15.737,
+   "srcOut": 16.177,
+   "at": 13.705
+  },
+  {
+   "srcIn": 16.585,
+   "srcOut": 18.178,
+   "at": 14.146
+  },
+  {
+   "srcIn": 18.423,
+   "srcOut": 18.825,
+   "at": 15.74
+  },
+  {
+   "srcIn": 19.223,
+   "srcOut": 25.241,
+   "at": 16.141
+  },
+  {
+   "srcIn": 25.466,
+   "srcOut": 26.342,
+   "at": 22.159
+  },
+  {
+   "srcIn": 26.572,
+   "srcOut": 27.62,
+   "at": 23.034
+  },
+  {
+   "srcIn": 27.792,
+   "srcOut": 30.222,
+   "at": 24.083
+  },
+  {
+   "srcIn": 30.88,
+   "srcOut": 34.429,
+   "at": 26.513
+  },
+  {
+   "srcIn": 34.614,
+   "srcOut": 36.267,
+   "at": 30.061
+  },
+  {
+   "srcIn": 36.52,
+   "srcOut": 40.669,
+   "at": 31.714
+  },
+  {
+   "srcIn": 40.885,
+   "srcOut": 44.399,
+   "at": 35.863
+  },
+  {
+   "srcIn": 44.831,
+   "srcOut": 48.2,
+   "at": 39.376
+  }
+ ],
+ "words": [
+  {
+   "text": "Kalo",
+   "start": 0.0,
+   "end": 0.0,
+   "srcStart": 0,
+   "srcEnd": 0.32
+  },
+  {
+   "text": "lo",
+   "start": 0.0,
+   "end": 0.016,
+   "srcStart": 0.32,
+   "srcEnd": 0.7
+  },
+  {
+   "text": "mau",
+   "start": 0.016,
+   "end": 0.046,
+   "srcStart": 0.7,
+   "srcEnd": 0.73
+  },
+  {
+   "text": "jadi",
+   "start": 0.046,
+   "end": 0.376,
+   "srcStart": 0.73,
+   "srcEnd": 1.06
+  },
+  {
+   "text": "video",
+   "start": 0.376,
+   "end": 0.786,
+   "srcStart": 1.06,
+   "srcEnd": 1.47
+  },
+  {
+   "text": "editor,",
+   "start": 0.786,
+   "end": 1.55,
+   "srcStart": 1.47,
+   "srcEnd": 2.53
+  },
+  {
+   "text": "kayaknya",
+   "start": 1.55,
+   "end": 1.89,
+   "srcStart": 2.53,
+   "srcEnd": 2.87
+  },
+  {
+   "text": "pikir-pikir",
+   "start": 1.89,
+   "end": 2.67,
+   "srcStart": 2.87,
+   "srcEnd": 3.65
+  },
+  {
+   "text": "dulu",
+   "start": 2.67,
+   "end": 2.851,
+   "srcStart": 3.65,
+   "srcEnd": 3.98
+  },
+  {
+   "text": "deh",
+   "start": 2.851,
+   "end": 2.851,
+   "srcStart": 3.98,
+   "srcEnd": 4
+  },
+  {
+   "text": "Karena",
+   "start": 2.851,
+   "end": 3.38,
+   "srcStart": 4,
+   "srcEnd": 4.63
+  },
+  {
+   "text": "Claude",
+   "start": 3.38,
+   "end": 3.81,
+   "srcStart": 4.63,
+   "srcEnd": 5.06
+  },
+  {
+   "text": "sekarang",
+   "start": 3.81,
+   "end": 4.48,
+   "srcStart": 5.06,
+   "srcEnd": 5.73
+  },
+  {
+   "text": "bisa",
+   "start": 4.48,
+   "end": 4.78,
+   "srcStart": 5.73,
+   "srcEnd": 6.03
+  },
+  {
+   "text": "ngedit",
+   "start": 4.78,
+   "end": 5.29,
+   "srcStart": 6.03,
+   "srcEnd": 6.54
+  },
+  {
+   "text": "video",
+   "start": 5.29,
+   "end": 5.73,
+   "srcStart": 6.54,
+   "srcEnd": 6.98
+  },
+  {
+   "text": "se-keren",
+   "start": 5.73,
+   "end": 6.41,
+   "srcStart": 6.98,
+   "srcEnd": 7.66
+  },
+  {
+   "text": "ini",
+   "start": 6.41,
+   "end": 6.544,
+   "srcStart": 7.66,
+   "srcEnd": 8
+  },
+  {
+   "text": "Dan",
+   "start": 6.544,
+   "end": 6.718,
+   "srcStart": 8,
+   "srcEnd": 8.23
+  },
+  {
+   "text": "bahkan",
+   "start": 6.718,
+   "end": 7.188,
+   "srcStart": 8.23,
+   "srcEnd": 8.7
+  },
+  {
+   "text": "ini",
+   "start": 7.188,
+   "end": 7.458,
+   "srcStart": 8.7,
+   "srcEnd": 8.97
+  },
+  {
+   "text": "gue",
+   "start": 7.458,
+   "end": 7.638,
+   "srcStart": 8.97,
+   "srcEnd": 9.15
+  },
+  {
+   "text": "pake",
+   "start": 7.638,
+   "end": 7.938,
+   "srcStart": 9.15,
+   "srcEnd": 9.45
+  },
+  {
+   "text": "HP",
+   "start": 7.938,
+   "end": 8.088,
+   "srcStart": 9.45,
+   "srcEnd": 9.6
+  },
+  {
+   "text": "doang",
+   "start": 8.088,
+   "end": 8.488,
+   "srcStart": 9.6,
+   "srcEnd": 10
+  },
+  {
+   "text": "Dan",
+   "start": 8.488,
+   "end": 8.798,
+   "srcStart": 10,
+   "srcEnd": 10.31
+  },
+  {
+   "text": "di",
+   "start": 8.798,
+   "end": 9.068,
+   "srcStart": 10.31,
+   "srcEnd": 10.58
+  },
+  {
+   "text": "edit",
+   "start": 9.068,
+   "end": 9.428,
+   "srcStart": 10.58,
+   "srcEnd": 10.94
+  },
+  {
+   "text": "100%",
+   "start": 9.428,
+   "end": 10.314,
+   "srcStart": 10.94,
+   "srcEnd": 12
+  },
+  {
+   "text": "oleh",
+   "start": 10.314,
+   "end": 10.314,
+   "srcStart": 12,
+   "srcEnd": 12
+  },
+  {
+   "text": "Claude",
+   "start": 10.314,
+   "end": 10.314,
+   "srcStart": 12,
+   "srcEnd": 12
+  },
+  {
+   "text": "Tanpa",
+   "start": 10.314,
+   "end": 10.864,
+   "srcStart": 12,
+   "srcEnd": 12.55
+  },
+  {
+   "text": "gue",
+   "start": 10.864,
+   "end": 11.264,
+   "srcStart": 12.55,
+   "srcEnd": 12.95
+  },
+  {
+   "text": "buka",
+   "start": 11.264,
+   "end": 11.67,
+   "srcStart": 12.95,
+   "srcEnd": 13.52
+  },
+  {
+   "text": "CapCut,",
+   "start": 11.67,
+   "end": 12.42,
+   "srcStart": 13.52,
+   "srcEnd": 14.27
+  },
+  {
+   "text": "tanpa",
+   "start": 12.42,
+   "end": 12.75,
+   "srcStart": 14.27,
+   "srcEnd": 14.6
+  },
+  {
+   "text": "gue",
+   "start": 12.75,
+   "end": 12.93,
+   "srcStart": 14.6,
+   "srcEnd": 14.78
+  },
+  {
+   "text": "buka",
+   "start": 12.93,
+   "end": 13.25,
+   "srcStart": 14.78,
+   "srcEnd": 15.1
+  },
+  {
+   "text": "Premiere",
+   "start": 13.25,
+   "end": 13.729,
+   "srcStart": 15.1,
+   "srcEnd": 15.76
+  },
+  {
+   "text": "Pro",
+   "start": 13.729,
+   "end": 13.969,
+   "srcStart": 15.76,
+   "srcEnd": 16
+  },
+  {
+   "text": "Dan",
+   "start": 13.969,
+   "end": 14.146,
+   "srcStart": 16,
+   "srcEnd": 16.21
+  },
+  {
+   "text": "wah",
+   "start": 14.146,
+   "end": 14.161,
+   "srcStart": 16.21,
+   "srcEnd": 16.6
+  },
+  {
+   "text": "hasilnya",
+   "start": 14.161,
+   "end": 14.661,
+   "srcStart": 16.6,
+   "srcEnd": 17.1
+  },
+  {
+   "text": "se-keren",
+   "start": 14.661,
+   "end": 15.271,
+   "srcStart": 17.1,
+   "srcEnd": 17.71
+  },
+  {
+   "text": "ini",
+   "start": 15.271,
+   "end": 15.561,
+   "srcStart": 17.71,
+   "srcEnd": 18
+  },
+  {
+   "text": "Dan",
+   "start": 15.561,
+   "end": 15.946,
+   "srcStart": 18,
+   "srcEnd": 18.63
+  },
+  {
+   "text": "kurang",
+   "start": 15.946,
+   "end": 16.798,
+   "srcStart": 18.63,
+   "srcEnd": 19.88
+  },
+  {
+   "text": "dari",
+   "start": 16.798,
+   "end": 17.638,
+   "srcStart": 19.88,
+   "srcEnd": 20.72
+  },
+  {
+   "text": "1",
+   "start": 17.638,
+   "end": 18.338,
+   "srcStart": 20.72,
+   "srcEnd": 21.42
+  },
+  {
+   "text": "jam,",
+   "start": 18.338,
+   "end": 18.998,
+   "srcStart": 21.42,
+   "srcEnd": 22.08
+  },
+  {
+   "text": "kurang",
+   "start": 18.998,
+   "end": 19.258,
+   "srcStart": 22.08,
+   "srcEnd": 22.34
+  },
+  {
+   "text": "dari",
+   "start": 19.258,
+   "end": 19.448,
+   "srcStart": 22.34,
+   "srcEnd": 22.53
+  },
+  {
+   "text": "60",
+   "start": 19.448,
+   "end": 19.688,
+   "srcStart": 22.53,
+   "srcEnd": 22.77
+  },
+  {
+   "text": "menit",
+   "start": 19.688,
+   "end": 19.908,
+   "srcStart": 22.77,
+   "srcEnd": 22.99
+  },
+  {
+   "text": "temen-temen",
+   "start": 19.908,
+   "end": 19.918,
+   "srcStart": 22.99,
+   "srcEnd": 23
+  },
+  {
+   "text": "Kalo",
+   "start": 19.918,
+   "end": 20.248,
+   "srcStart": 23,
+   "srcEnd": 23.33
+  },
+  {
+   "text": "kalian",
+   "start": 20.248,
+   "end": 20.348,
+   "srcStart": 23.33,
+   "srcEnd": 23.43
+  },
+  {
+   "text": "mau",
+   "start": 20.348,
+   "end": 20.478,
+   "srcStart": 23.43,
+   "srcEnd": 23.56
+  },
+  {
+   "text": "tau",
+   "start": 20.478,
+   "end": 20.608,
+   "srcStart": 23.56,
+   "srcEnd": 23.69
+  },
+  {
+   "text": "caranya,",
+   "start": 20.608,
+   "end": 21.048,
+   "srcStart": 23.69,
+   "srcEnd": 24.13
+  },
+  {
+   "text": "gampang",
+   "start": 21.048,
+   "end": 21.498,
+   "srcStart": 24.13,
+   "srcEnd": 24.58
+  },
+  {
+   "text": "banget",
+   "start": 21.498,
+   "end": 21.918,
+   "srcStart": 24.58,
+   "srcEnd": 25
+  },
+  {
+   "text": "Kalian",
+   "start": 21.918,
+   "end": 22.193,
+   "srcStart": 25,
+   "srcEnd": 25.5
+  },
+  {
+   "text": "nanti",
+   "start": 22.193,
+   "end": 22.723,
+   "srcStart": 25.5,
+   "srcEnd": 26.03
+  },
+  {
+   "text": "buka",
+   "start": 22.723,
+   "end": 22.953,
+   "srcStart": 26.03,
+   "srcEnd": 26.26
+  },
+  {
+   "text": "Claude,",
+   "start": 22.953,
+   "end": 23.323,
+   "srcStart": 26.26,
+   "srcEnd": 26.86
+  },
+  {
+   "text": "jangan",
+   "start": 23.323,
+   "end": 23.833,
+   "srcStart": 26.86,
+   "srcEnd": 27.37
+  },
+  {
+   "text": "lupa",
+   "start": 23.833,
+   "end": 24.131,
+   "srcStart": 27.37,
+   "srcEnd": 27.84
+  },
+  {
+   "text": "install",
+   "start": 24.131,
+   "end": 24.591,
+   "srcStart": 27.84,
+   "srcEnd": 28.3
+  },
+  {
+   "text": "Remotion",
+   "start": 24.591,
+   "end": 25.261,
+   "srcStart": 28.3,
+   "srcEnd": 28.97
+  },
+  {
+   "text": "HyperFrames",
+   "start": 25.261,
+   "end": 26.291,
+   "srcStart": 28.97,
+   "srcEnd": 30
+  },
+  {
+   "text": "Dan",
+   "start": 26.291,
+   "end": 26.513,
+   "srcStart": 30,
+   "srcEnd": 30.25
+  },
+  {
+   "text": "itu",
+   "start": 26.513,
+   "end": 26.632,
+   "srcStart": 30.25,
+   "srcEnd": 31
+  },
+  {
+   "text": "kalian",
+   "start": 26.632,
+   "end": 26.672,
+   "srcStart": 31,
+   "srcEnd": 31.04
+  },
+  {
+   "text": "harus",
+   "start": 26.672,
+   "end": 27.192,
+   "srcStart": 31.04,
+   "srcEnd": 31.56
+  },
+  {
+   "text": "langganan",
+   "start": 27.192,
+   "end": 27.892,
+   "srcStart": 31.56,
+   "srcEnd": 32.26
+  },
+  {
+   "text": "Claude",
+   "start": 27.892,
+   "end": 28.332,
+   "srcStart": 32.26,
+   "srcEnd": 32.7
+  },
+  {
+   "text": "Pro",
+   "start": 28.332,
+   "end": 28.632,
+   "srcStart": 32.7,
+   "srcEnd": 33
+  },
+  {
+   "text": "dulu,",
+   "start": 28.632,
+   "end": 29.632,
+   "srcStart": 33,
+   "srcEnd": 34
+  },
+  {
+   "text": "baru",
+   "start": 29.632,
+   "end": 29.632,
+   "srcStart": 34,
+   "srcEnd": 34
+  },
+  {
+   "text": "bisa",
+   "start": 29.632,
+   "end": 29.632,
+   "srcStart": 34,
+   "srcEnd": 34
+  },
+  {
+   "text": "Lalu",
+   "start": 29.632,
+   "end": 30.077,
+   "srcStart": 34,
+   "srcEnd": 34.63
+  },
+  {
+   "text": "kalian",
+   "start": 30.077,
+   "end": 30.487,
+   "srcStart": 34.63,
+   "srcEnd": 35.04
+  },
+  {
+   "text": "prompting",
+   "start": 30.487,
+   "end": 31.467,
+   "srcStart": 35.04,
+   "srcEnd": 36.02
+  },
+  {
+   "text": "sesuai",
+   "start": 31.467,
+   "end": 32.194,
+   "srcStart": 36.02,
+   "srcEnd": 37
+  },
+  {
+   "text": "dengan",
+   "start": 32.194,
+   "end": 32.494,
+   "srcStart": 37,
+   "srcEnd": 37.3
+  },
+  {
+   "text": "apa",
+   "start": 32.494,
+   "end": 32.684,
+   "srcStart": 37.3,
+   "srcEnd": 37.49
+  },
+  {
+   "text": "yang",
+   "start": 32.684,
+   "end": 32.774,
+   "srcStart": 37.49,
+   "srcEnd": 37.58
+  },
+  {
+   "text": "kalian",
+   "start": 32.774,
+   "end": 33.034,
+   "srcStart": 37.58,
+   "srcEnd": 37.84
+  },
+  {
+   "text": "mau",
+   "start": 33.034,
+   "end": 33.194,
+   "srcStart": 37.84,
+   "srcEnd": 38
+  },
+  {
+   "text": "Editing",
+   "start": 33.194,
+   "end": 33.624,
+   "srcStart": 38,
+   "srcEnd": 38.43
+  },
+  {
+   "text": "talking",
+   "start": 33.624,
+   "end": 34.084,
+   "srcStart": 38.43,
+   "srcEnd": 38.89
+  },
+  {
+   "text": "head-nya",
+   "start": 34.084,
+   "end": 34.524,
+   "srcStart": 38.89,
+   "srcEnd": 39.33
+  },
+  {
+   "text": "seperti",
+   "start": 34.524,
+   "end": 34.974,
+   "srcStart": 39.33,
+   "srcEnd": 39.78
+  },
+  {
+   "text": "ini",
+   "start": 34.974,
+   "end": 35.194,
+   "srcStart": 39.78,
+   "srcEnd": 40
+  },
+  {
+   "text": "misalkan",
+   "start": 35.194,
+   "end": 35.194,
+   "srcStart": 40,
+   "srcEnd": 40
+  },
+  {
+   "text": "Kalo",
+   "start": 35.194,
+   "end": 35.554,
+   "srcStart": 40,
+   "srcEnd": 40.36
+  },
+  {
+   "text": "kalian",
+   "start": 35.554,
+   "end": 35.927,
+   "srcStart": 40.36,
+   "srcEnd": 40.95
+  },
+  {
+   "text": "mau",
+   "start": 35.927,
+   "end": 36.217,
+   "srcStart": 40.95,
+   "srcEnd": 41.24
+  },
+  {
+   "text": "tutorial",
+   "start": 36.217,
+   "end": 36.987,
+   "srcStart": 41.24,
+   "srcEnd": 42.01
+  },
+  {
+   "text": "lengkapnya,",
+   "start": 36.987,
+   "end": 38.227,
+   "srcStart": 42.01,
+   "srcEnd": 43.25
+  },
+  {
+   "text": "kalian",
+   "start": 38.227,
+   "end": 38.467,
+   "srcStart": 43.25,
+   "srcEnd": 43.49
+  },
+  {
+   "text": "komen",
+   "start": 38.467,
+   "end": 38.777,
+   "srcStart": 43.49,
+   "srcEnd": 43.8
+  },
+  {
+   "text": "aja",
+   "start": 38.777,
+   "end": 38.977,
+   "srcStart": 43.8,
+   "srcEnd": 44
+  },
+  {
+   "text": "Claude",
+   "start": 38.977,
+   "end": 39.405,
+   "srcStart": 44,
+   "srcEnd": 44.86
+  },
+  {
+   "text": "di",
+   "start": 39.405,
+   "end": 39.805,
+   "srcStart": 44.86,
+   "srcEnd": 45.26
+  },
+  {
+   "text": "bawah,",
+   "start": 39.805,
+   "end": 40.605,
+   "srcStart": 45.26,
+   "srcEnd": 46.06
+  },
+  {
+   "text": "nanti",
+   "start": 40.605,
+   "end": 40.765,
+   "srcStart": 46.06,
+   "srcEnd": 46.22
+  },
+  {
+   "text": "gue",
+   "start": 40.765,
+   "end": 40.865,
+   "srcStart": 46.22,
+   "srcEnd": 46.32
+  },
+  {
+   "text": "akan",
+   "start": 40.865,
+   "end": 40.995,
+   "srcStart": 46.32,
+   "srcEnd": 46.45
+  },
+  {
+   "text": "kasih",
+   "start": 40.995,
+   "end": 41.165,
+   "srcStart": 46.45,
+   "srcEnd": 46.62
+  },
+  {
+   "text": "ke",
+   "start": 41.165,
+   "end": 41.225,
+   "srcStart": 46.62,
+   "srcEnd": 46.68
+  },
+  {
+   "text": "DM",
+   "start": 41.225,
+   "end": 41.385,
+   "srcStart": 46.68,
+   "srcEnd": 46.84
+  },
+  {
+   "text": "kalian",
+   "start": 41.385,
+   "end": 41.545,
+   "srcStart": 46.84,
+   "srcEnd": 47
+  },
+  {
+   "text": "gratis",
+   "start": 41.545,
+   "end": 42.545,
+   "srcStart": 47,
+   "srcEnd": 48
+  }
+ ]
+}

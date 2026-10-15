@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Plan Edit IMG_5760</title>
+<style>
+:root{--blue:#061CB0;--deep:#03106B;--yellow:#FDF100;--ink:#0F172A;--sub:#64748B;--line:#E2E8F0;--bg:#F5F7FB}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:Inter,system-ui,sans-serif;color:var(--ink)}
+header{background:var(--blue);color:#fff;padding:20px 24px;position:sticky;top:0;z-index:5;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+header h1{margin:0;font-size:20px;flex:1;min-width:200px}header h1 span{color:var(--yellow)}
+button{font:inherit;font-weight:700;border:0;border-radius:10px;padding:10px 16px;cursor:pointer}
+.primary{background:var(--yellow);color:var(--deep)}.ghost{background:rgba(255,255,255,.15);color:#fff}
+main{max-width:1200px;margin:0 auto;padding:20px 16px 80px}
+.globals{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-bottom:22px}
+.globals h2{grid-column:1/-1;margin:0;font-size:16px}
+label{display:flex;flex-direction:column;gap:6px;font-size:12px;font-weight:700;color:var(--sub);text-transform:uppercase;letter-spacing:.03em}
+select,input[type=text],textarea{font:inherit;font-size:14px;color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:9px 10px;background:#fff;text-transform:none;letter-spacing:0;font-weight:500}
+input[type=color]{height:40px;width:100%;border:1px solid var(--line);border-radius:10px;background:#fff}
+textarea{resize:vertical;min-height:70px}
+.row{background:#fff;border:1px solid var(--line);border-radius:16px;margin-bottom:14px;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);overflow:hidden}
+.left{padding:16px;border-right:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
+.right{padding:16px;display:flex;flex-direction:column;gap:12px}
+.meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--sub);font-weight:700}
+.num{background:var(--blue);color:#fff;border-radius:8px;padding:3px 8px}
+.badge{border-radius:999px;padding:3px 10px;color:#fff}
+.Hook{background:#E5484D}.Foreshadow{background:#7C3AED}.Body{background:#0A64D6}.CTA{background:#16A34A}
+.script{font-size:18px;font-weight:700;line-height:1.35}
+.refs{display:flex;gap:8px;flex-wrap:wrap}.refs a{display:block;width:64px;height:114px;border-radius:8px;overflow:hidden;border:1px solid var(--line)}
+.refs img{width:100%;height:100%;object-fit:cover}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.status{display:flex;gap:8px}.status label{flex-direction:row;align-items:center;gap:6px;text-transform:none;font-size:14px;color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:8px 12px;cursor:pointer}
+.status input{accent-color:var(--blue)}
+.fb{border:2px dashed #CBD5E1;background:#FFFDE6}
+.assets{font-size:13px;color:var(--sub)}.assets b{color:var(--ink)}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 16px;border-radius:10px;opacity:0;transition:.2s}
+.toast.on{opacity:1}
+@media (max-width:760px){.row{grid-template-columns:1fr}.left{border-right:0;border-bottom:1px solid var(--line)}.two{grid-template-columns:1fr}}
+</style></head><body>
+<header><h1>Plan edit <span>IMG_5760</span> · <span id="dur"></span></h1>
+<button class="ghost" id="reset">Reset ke usulan</button><button class="primary" id="export">Export JSON</button></header>
+<main>
+<section class="globals" id="globals"><h2>Setelan global</h2></section>
+<p style="color:var(--sub);font-size:14px;margin:0 0 14px">Kiri = script + waktu. Kanan = usulan edit gua (boleh lo ubah langsung). Isi kolom kuning buat masukan, pilih <b>Setuju</b> atau <b>Ubah</b>, lalu klik <b>Export JSON</b> dan kirim file-nya ke gua.</p>
+<section id="rows"></section>
+</main><div class="toast" id="toast"></div>
+<script>
+const DATA = {"video": "IMG_5760", "duration": 42.745, "globals": {"accent": "#FDF100", "font1": "Inter", "font2": "Caveat", "fontColor": "#FFFFFF", "tracker": "4. Tile 1-2-3 di atas kepala (3 langkah)", "hook": "D. Judul negatif + glitch", "captionPos": "Atas kepala (y ±22%) — muka close-up ngisi tengah, area dada kepotong"}, "lines": [{"start": 0, "section": "Hook", "scene": "Caption + UI", "proposal": "Frame 1 langsung judul 2 baris di sepertiga atas, di atas kepala: kecil \"Mau jadi video editor?\" + besar \"PIKIR-PIKIR DULU\" (\"PIKIR-PIKIR\" merah). Di detik ±1.7 judul kena glitch 0.3 s + SFX glitch. Punch-in 100→112% di \"pikir-pikir\".", "refs": ["01-hook/hook-05_judul-negatif.jpg", "01-hook/hook-06_judul-glitch.jpg"], "assets": "-", "id": 1, "t0": 0.0, "t1": 2.85, "script": "Kalo lo mau jadi video editor, kayaknya pikir-pikir dulu deh"}, {"start": 10, "section": "Foreshadow", "scene": "Caption + UI", "proposal": "Flash putih 2 frame di \"Karena\" (hook → isi). Logo Claude pop di samping kepala tepat di kata \"Claude\". \"SE-KEREN INI\" stacked besar kuning di \"se-keren ini\", background digelapkan 30% + blur.", "refs": ["04-transisi/trans-04_flash-putih.jpg", "03-body/body-12_logo-brand-pop.jpg", "01-hook/hook-03_angka-besar-warna.jpg"], "assets": "Logo Claude (PNG transparan)", "id": 2, "t0": 2.85, "t1": 6.54, "script": "Karena Claude sekarang bisa ngedit video se-keren ini"}, {"start": 18, "section": "Foreshadow", "scene": "Caption + UI", "proposal": "Mockup HP kecil (gambar vektor) masuk miring dari kanan di \"HP\", chip \"cuma HP\" kuning di \"doang\". Caption word-by-word.", "refs": ["03-body/body-14_chip-ikon-mengambang.jpg"], "assets": "-", "id": 3, "t0": 6.54, "t1": 8.49, "script": "Dan bahkan ini gue pake HP doang"}, {"start": 25, "section": "Foreshadow", "scene": "Half screen", "proposal": "Half screen: atas = angka \"100%\" count-up kuning glow + label kecil \"di-edit Claude\"; speaker di bawah. Caption di garis sambungan dalam pill gelap.", "refs": ["01-hook/hook-07_angka-neon-janji.jpg", "03-body/body-05_diagram-atas-speaker-bawah.jpg", "03-body/body-11_caption-di-atas-ui.jpg"], "assets": "-", "id": 4, "t0": 8.49, "t1": 10.31, "script": "Dan di edit 100% oleh Claude"}, {"start": 31, "section": "Foreshadow", "scene": "Caption + UI", "proposal": "Balik ke speaker. Ikon CapCut pop kiri kepala di \"CapCut\" lalu dicoret silang merah; ikon Premiere Pro pop kanan di \"Premiere\" lalu dicoret. Merah satu-satunya aksen di frame ini.", "refs": ["01-hook/hook-09_judul-plus-ikon-app.jpg", "01-hook/hook-04_kata-kunci-merah.jpg"], "assets": "Logo CapCut + Premiere Pro (atau gue bikin ikon generik tanpa logo asli)", "id": 5, "t0": 10.31, "t1": 13.97, "script": "Tanpa gue buka CapCut, tanpa gue buka Premiere Pro"}, {"start": 40, "section": "Foreshadow", "scene": "Full screen", "proposal": "Full screen 2–3 s di \"hasilnya se-keren ini\": mockup HP di tengah muter pelan nampilin cuplikan hasil edit (screen recording), light ray kuning di belakang, background biru vignette.", "refs": ["03-body/body-01_ui-di-monitor.jpg", "03-body/body-06_ikon-fullscreen-light-ray.jpg"], "assets": "Screen recording / video hasil edit Claude (5–10 detik)", "id": 6, "t0": 13.97, "t1": 15.56, "script": "Dan wah hasilnya se-keren ini"}, {"start": 45, "section": "Foreshadow", "scene": "Caption + UI", "proposal": "Stopwatch kecil di atas kepala, jarum muter cepat lalu berhenti; teks stacked \"KURANG DARI\" kecil + \"60 MENIT\" besar kuning di \"60 menit\". Punch-in di \"temen-temen\".", "refs": ["01-hook/hook-03_angka-besar-warna.jpg", "03-body/body-17_garis-arc-di-atas-kepala.jpg"], "assets": "-", "id": 7, "t0": 15.56, "t1": 19.92, "script": "Dan kurang dari 1 jam, kurang dari 60 menit temen-temen"}, {"start": 55, "section": "Body", "scene": "Caption + UI", "proposal": "Foreshadow langkah: 3 tile kaca bernomor 1-2-3 turun stagger di atas kepala (abu-abu semua) di \"caranya\", \"GAMPANG BANGET\" kuning. Tile ini jadi progress tracker sampai CTA.", "refs": ["02-progress/progress-03_tile-1234.jpg", "01-hook/hook-15_5-panel-bernomor.jpg"], "assets": "-", "id": 8, "t0": 19.92, "t1": 21.92, "script": "Kalo kalian mau tau caranya, gampang banget"}, {"start": 62, "section": "Body", "scene": "Half screen", "proposal": "Langkah 1 — tile 1 jadi kuning (whoosh). Half screen: atas = jendela Claude rekonstruksi bersih, 2 chip \"Remotion\" & \"HyperFrames\" masuk ke dalam jendela tepat di nama masing-masing.", "refs": ["03-body/body-02_split-ui-atas-speaker-bawah.jpg", "03-body/body-08_objek-gabung.jpg"], "assets": "Screenshot Claude (opsional, kalau mau UI asli) + logo Remotion / HyperFrames (atau chip teks)", "id": 9, "t0": 21.92, "t1": 26.29, "script": "Kalian nanti buka Claude, jangan lupa install Remotion HyperFrames"}, {"start": 71, "section": "Body", "scene": "Caption + UI", "proposal": "Langkah 2 — tile 2 kuning. Kartu \"Claude Pro\" pop di samping kepala dengan label kecil \"wajib\" + centang di \"langganan\". Background gelap 30% + blur selama kartu tampil.", "refs": ["01-hook/hook-10_social-proof-card.jpg", "03-body/body-14_chip-ikon-mengambang.jpg"], "assets": "-", "id": 10, "t0": 26.29, "t1": 29.63, "script": "Dan itu kalian harus langganan Claude Pro dulu, baru bisa"}, {"start": 81, "section": "Body", "scene": "Full screen", "proposal": "Langkah 3 — tile 3 kuning, masuk full screen (Drum Woosh). Kotak prompt di tengah, teks prompt ngetik sendiri: \"Edit video talking head gue jadi kayak reels...\" + kursor; kamera push-in pelan.", "refs": ["03-body/body-04_grid-ui-fullscreen.jpg", "04-transisi/trans-01_glitch-ke-ui-gelap.jpg"], "assets": "Teks prompt yang lo pakai (biar akurat)", "id": 11, "t0": 29.63, "t1": 33.19, "script": "Lalu kalian prompting sesuai dengan apa yang kalian mau"}, {"start": 90, "section": "Body", "scene": "Half screen", "proposal": "Before/after: atas = frame raw (polos) vs frame hasil edit berdampingan, label \"SEBELUM\" / \"SESUDAH\". Lalu recap: 3 tile penuh kuning + Success sound.", "refs": ["03-body/body-10_pip-wajah-plus-layar.jpg", "02-progress/progress-10_recap-05-pillars.jpg"], "assets": "-", "id": 12, "t0": 33.19, "t1": 35.19, "script": "Editing talking head-nya seperti ini misalkan"}, {"start": 96, "section": "CTA", "scene": "Caption + UI", "proposal": "Speaker tetap di layar. \"Ketik komen\" kecil + \"CLAUDE\" besar dalam kutip, kuning glow, di atas kepala, pop-in bounce di kata \"Claude\". Baris kecil \"tutorial lengkap gue kirim ke DM, gratis\". Bubble DM muncul di bawah pas \"DM\".", "refs": ["05-cta/cta-01_ketik-komen-glow.jpg", "05-cta/cta-04_keyword-glow.jpg", "05-cta/cta-05_bubble-dm.jpg"], "assets": "-", "id": 13, "t0": 35.19, "t1": 42.74, "script": "Kalo kalian mau tutorial lengkapnya, kalian komen aja Claude di bawah, nanti gue akan kasih ke DM kalian gratis"}]};
+const SHOT = "../../aigrowth-editing-guide/screenshots/";
+const KEY = "plan-" + DATA.video;
+const SCENES = ["Caption", "Caption + UI", "Half screen", "Full screen"];
+const SECTIONS = ["Hook", "Foreshadow", "Body", "CTA"];
+const GLOBAL_FIELDS = [
+  ["accent", "Warna aksen", "color"], ["fontColor", "Warna font", "color"],
+  ["font1", "Font 1 (utama)", ["Inter", "Plus Jakarta Sans", "Montserrat", "Poppins"]],
+  ["font2", "Font 2 (aksen, 1 kata/scene)", ["Caveat", "Permanent Marker", "Pacifico", "Tanpa font aksen"]],
+  ["tracker", "Progress tracker", ["1. Chip step di atas caption", "2. Angka besar di atas kepala", "3. Label nomor di samping kepala", "4. Tile 1-2-3 di atas kepala (3 langkah)", "5. Full-screen chapter card"]],
+  ["hook", "Variasi hook", ["A. Judul besar di belakang kepala", "B. Grafik mini", "C. Angka/kata kunci stacked", "D. Judul negatif + glitch", "E. Angka janji + daftar turun", "F. Objek terbang sekitar kepala", "G. Social proof card", "H. Angka raksasa / panel bernomor"]],
+  ["captionPos", "Posisi caption", "text"],
+];
+function initial() {
+  return { globals: { ...DATA.globals, notes: "" }, lines: DATA.lines.map(l => ({ id: l.id, section: l.section, scene: l.scene, proposal: l.proposal, status: "", feedback: "" })) };
+}
+let state;
+try { state = JSON.parse(localStorage.getItem(KEY)) || initial(); } catch (e) { state = initial(); }
+function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const fmt = t => (Math.floor(t / 60) + ":" + (t % 60).toFixed(1).padStart(4, "0"));
+document.getElementById("dur").textContent = fmt(DATA.duration);
+function render() {
+  const g = document.getElementById("globals");
+  g.innerHTML = "<h2>Setelan global</h2>" + GLOBAL_FIELDS.map(([k, lbl, t]) => {
+    const v = state.globals[k] ?? "";
+    if (t === "color") return `<label>${lbl}<input type="color" data-g="${k}" value="${esc(v)}"></label>`;
+    if (t === "text") return `<label>${lbl}<input type="text" data-g="${k}" value="${esc(v)}"></label>`;
+    return `<label>${lbl}<select data-g="${k}">${t.map(o => `<option${o === v ? " selected" : ""}>${esc(o)}</option>`).join("")}</select></label>`;
+  }).join("") + `<label style="grid-column:1/-1">Catatan umum buat gua<textarea class="fb" data-g="notes" placeholder="Misal: hook-nya mau lebih lucu, jangan pakai merah, dll.">${esc(state.globals.notes || "")}</textarea></label>`;
+  document.getElementById("rows").innerHTML = DATA.lines.map((l, i) => {
+    const s = state.lines[i];
+    return `<article class="row">
+      <div class="left">
+        <div class="meta"><span class="num">#${l.id}</span><span>${fmt(l.t0)} – ${fmt(l.t1)}</span><span class="badge ${esc(s.section)}">${esc(s.section)}</span></div>
+        <div class="script">“${esc(l.script)}”</div>
+        <div class="refs">${l.refs.map(r => `<a href="${SHOT + r}" target="_blank" title="${esc(r)}"><img src="${SHOT + r}" alt="${esc(r)}"></a>`).join("")}</div>
+        <div class="assets"><b>Aset:</b> ${esc(l.assets)}</div>
+      </div>
+      <div class="right">
+        <div class="two">
+          <label>Tipe scene<select data-i="${i}" data-k="scene">${SCENES.map(o => `<option${o === s.scene ? " selected" : ""}>${o}</option>`).join("")}</select></label>
+          <label>Bagian<select data-i="${i}" data-k="section">${SECTIONS.map(o => `<option${o === s.section ? " selected" : ""}>${o}</option>`).join("")}</select></label>
+        </div>
+        <label>Usulan edit gua<textarea data-i="${i}" data-k="proposal" rows="4">${esc(s.proposal)}</textarea></label>
+        <label>Modif / masukan lo<textarea class="fb" data-i="${i}" data-k="feedback" placeholder="Kosongin kalau udah oke">${esc(s.feedback)}</textarea></label>
+        <div class="status">
+          <label><input type="radio" name="st${i}" data-i="${i}" data-k="status" value="setuju"${s.status === "setuju" ? " checked" : ""}> Setuju</label>
+          <label><input type="radio" name="st${i}" data-i="${i}" data-k="status" value="ubah"${s.status === "ubah" ? " checked" : ""}> Ubah</label>
+        </div>
+      </div></article>`;
+  }).join("");
+}
+document.addEventListener("input", e => {
+  const t = e.target;
+  if (t.dataset.g) state.globals[t.dataset.g] = t.value;
+  else if (t.dataset.k) { state.lines[+t.dataset.i][t.dataset.k] = t.value; if (t.dataset.k === "section") render(); }
+  save();
+});
+function toast(m) { const el = document.getElementById("toast"); el.textContent = m; el.classList.add("on"); setTimeout(() => el.classList.remove("on"), 2200); }
+document.getElementById("export").onclick = async () => {
+  const out = { video: DATA.video, exportedAt: new Date().toISOString(), globals: state.globals,
+    lines: DATA.lines.map((l, i) => ({ id: l.id, t0: l.t0, t1: l.t1, script: l.script, refs: l.refs, assets: l.assets, ...state.lines[i] })) };
+  const txt = JSON.stringify(out, null, 2);
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([txt], { type: "application/json" }));
+  a.download = DATA.video + "-plan.json"; a.click();
+  try { await navigator.clipboard.writeText(txt); toast("JSON ke-download + ke-copy"); } catch (e) { toast("JSON ke-download"); }
+};
+document.getElementById("reset").onclick = () => { if (confirm("Balikin semua ke usulan awal? Masukan lo bakal hilang.")) { state = initial(); save(); render(); } };
+render();
+</script></body></html>
