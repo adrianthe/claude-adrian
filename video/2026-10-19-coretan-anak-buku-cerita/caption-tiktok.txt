@@ -1,0 +1,15 @@
+Coretan anak lu yang ditempel di kulkas bisa jadi buku cerita beneran. Sampul plus 6 halaman, dan tokohnya tetap tokoh yang dia gambar sendiri.
+
+Di TikTok gua gak bisa kirim DM otomatis, jadi promptnya gua taruh di sini.
+
+1. Gemini, pencet + lalu pilih Buat gambar. Upload foto coretannya, tempel:
+"Ubah gambar krayon ini jadi sampul buku cerita anak. Tokoh dan [OBJEK LAIN] bentuknya tetap persis seperti gambar asli (garis miring tetap miring, proporsi tetap), cuma diwarnai rapi gaya krayon dengan latar halaman buku. Judul di atas: "[JUDUL CERITA]". Format portrait 3:4."
+
+2. Tiap halaman buka chat baru, Buat gambar lagi, upload sampulnya, tempel:
+"Halaman [NOMOR] dari buku cerita "[JUDUL CERITA]" (gambar ini sampulnya). [NAMA TOKOH] dan [OBJEK LAIN] harus persis sama seperti di sampul (bentuk, warna, gaya krayon). Tanpa judul. Adegan: [ADEGAN]. Di bagian bawah halaman, tulis teks cerita: "[SATU KALIMAT CERITA]" Format portrait 3:4."
+
+Edit gambar di Gemini cuma buat akun 18 tahun ke atas. Pakai akun lu, bukan akun anak.
+
+Simpen video ini, kirim ke temen yang kulkasnya penuh gambar anak.
+
+#gemini #parenting #tipsAI #gambaranak #bukucerita

@@ -1,0 +1,29 @@
+PROMPT BUKU CERITA DARI CORETAN ANAK (Gemini)
+dari @adrianthe_
+
+
+LANGKAH 1. SAMPUL
+
+1. Buka gemini.google.com atau aplikasi Gemini.
+2. Pencet tanda + lalu pilih "Buat gambar". Wajib. Kalau di chat biasa, Gemini bisa nolak.
+3. Upload foto coretan anak lu. Fotonya siang, dekat jendela, lurus dari atas.
+4. Tempel prompt ini, ganti yang di [KURUNG]:
+
+Ubah gambar krayon ini jadi sampul buku cerita anak. Tokoh dan [OBJEK LAIN, misal: matahari] bentuknya tetap persis seperti gambar asli (garis miring tetap miring, proporsi tetap), cuma diwarnai rapi gaya krayon dengan latar halaman buku. Judul di atas: "[JUDUL CERITA]". Format portrait 3:4.
+
+
+LANGKAH 2. HALAMAN (ulangi per halaman)
+
+1. Buka CHAT BARU, pencet + lalu "Buat gambar" lagi.
+2. Upload gambar SAMPUL hasil langkah 1, biar tokohnya tetap sama.
+3. Tempel template ini:
+
+Halaman [NOMOR] dari buku cerita "[JUDUL CERITA]" (gambar ini sampulnya). [NAMA TOKOH] dan [OBJEK LAIN] harus persis sama seperti di sampul (bentuk, warna, gaya krayon). Tanpa judul. Adegan: [APA YANG TERJADI DI HALAMAN INI]. Di bagian bawah halaman, tulis teks cerita: "[SATU KALIMAT CERITA]" Format portrait 3:4.
+
+
+TIPS
+
+- Ambil isi cerita dari benda yang ada di gambar anak lu. Di contoh video: awan biru, bola biru, bunga merah.
+- Jangan lanjut di chat yang sama buat halaman berikutnya, suka macet. Chat baru tiap halaman.
+- Edit gambar di Gemini cuma buat akun 18 tahun ke atas. Pakai akun lu, bukan akun anak.
+- Kalau tokohnya dirapihin AI, ketik: "Kembalikan bentuknya persis seperti gambar asli, jangan dirapikan."
