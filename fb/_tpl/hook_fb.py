@@ -50,7 +50,7 @@ def render(spec, out):
     b{{font-weight:900;color:#fff;letter-spacing:-1.5px}}
     b.y{{color:#FFF200}}
     .cta{{display:flex;align-items:center;gap:22px;background:#FFF200;color:#061BB0;border-radius:999px;padding:24px 40px;
-      font-weight:900;font-size:40px;letter-spacing:-.5px;align-self:flex-start}}
+      font-weight:900;font-size:40px;letter-spacing:-.5px;align-self:flex-start;white-space:nowrap}}
     .cta i{{font-style:normal;display:inline-flex;width:58px;height:58px;border-radius:50%;background:#061BB0;color:#FFF200;
       align-items:center;justify-content:center;font-size:36px}}
     </style></head><body><div class="wrap">
