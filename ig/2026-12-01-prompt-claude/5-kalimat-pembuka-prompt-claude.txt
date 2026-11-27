@@ -1,0 +1,24 @@
+5 KALIMAT PEMBUKA PROMPT CLAUDE (dari @adrianthe_)
+Tempel di awal prompt, terus tulis permintaan lu di bawahnya.
+
+1. "Sebelum jawab, tanya gua 3 pertanyaan dulu."
+   Contoh: Sebelum jawab, tanya gua 3 pertanyaan dulu. Bikinin caption IG buat jualan kopi susu literan.
+   Claude bakal nanya dulu (target pembeli, harga, gaya bahasa) sebelum nulis.
+
+2. "Jelasin kayak ke anak SMP."
+   Contoh: Jelasin kayak ke anak SMP: apa itu HPP?
+   Istilah ribet dijelasin pakai contoh sehari-hari.
+
+3. "Kasih 3 pilihan, terus pilih satu yang paling lu saranin dan kenapa."
+   Contoh: Kasih 3 pilihan nama produk kopi literan, terus pilih satu yang paling lu saranin dan kenapa.
+   Lu dapet pembanding plus alasan, bukan satu jawaban doang.
+
+4. "Kritik draf gua kayak editor galak. Sebut 3 bagian paling lemah."
+   Contoh: Kritik caption gua kayak editor galak. Sebut 3 bagian paling lemah. [tempel caption lu]
+   Claude nyari kelemahan, bukan muji.
+
+5. "Kalau nggak yakin, bilang nggak tau. Jangan ngarang."
+   Contoh: Kalau nggak yakin, bilang nggak tau. Jangan ngarang. Berapa omzet rata-rata jualan kopi literan?
+   Claude bakal ngaku kalau datanya nggak ada, bukan bikin angka.
+
+Bonus: gabungin. Contoh: "Sebelum jawab, tanya gua 3 pertanyaan dulu. Kalau nggak yakin, bilang nggak tau."
