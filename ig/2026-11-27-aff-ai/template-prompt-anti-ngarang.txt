@@ -1,0 +1,19 @@
+TEMPLATE PROMPT ANTI NGARANG (dari @adrianthe_)
+Tempel di awal prompt tiap kali lu nyuruh AI bikin konten jualan / affiliate.
+
+1. Kalimat wajib:
+Jangan mengarang angka, hasil, atau orang. Tiap klaim harus ada sumbernya.
+
+2. Kunci fakta dulu sebelum nulis:
+Sebelum nulis, bikin tabel FAKTA: klaim | sumber | status.
+Status cuma tiga: TERKUNCI (sumber jelas, dicek hari ini), PERLU CEK, BELUM TERVERIFIKASI.
+Yang BELUM TERVERIFIKASI jangan dipakai. Jangan dibikin samar kayak "banyak yang bilang".
+
+3. Aturan nulis:
+- Harga, nama menu aplikasi, aturan, kebijakan: cek ulang hari ini.
+- Dua sumber beda angka: pakai yang lebih kecil atau buang.
+- Jangan bikin testimoni, nama pembeli, atau cerita pengalaman yang nggak ada.
+- Kalau nggak yakin, tulis apa adanya atau buang kalimatnya.
+
+4. Cek terakhir sebelum posting:
+Baca ulang draf. Tandai tiap angka, nama, dan klaim. Satu-satu cocokin ke tabel FAKTA. Yang nggak ada di tabel: hapus.
