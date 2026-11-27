@@ -1,0 +1,31 @@
+9 SKILL CLAUDE YANG NGURUS SOSMED @adrianthe_
+Skill = file instruksi (SKILL.md) yang dibaca Claude pas tugasnya cocok. Di Claude Code taruh di folder .claude/skills/<nama-skill>/SKILL.md.
+
+1. content-research
+   Riset topik + kunci fakta SEBELUM nulis. Angka, harga, aturan dicek dulu; yang nggak ada sumbernya dibuang.
+
+2. viral-content-writer
+   Cara nulis post: tes pilih topik, bikin hook, struktur thread, penutup, scorecard sebelum posting.
+
+3. humanizer
+   Ngilangin ciri tulisan AI (kata-kata klise, kalimat kebanyakan tanda, pola "bukan cuma X tapi Y").
+
+4. content-replication
+   Bedah post viral orang lain (hook, jumlah poin, emosi), terus bikin ulang dengan bentuk beda. Bukan nyontek kalimatnya.
+
+5. adrian-affiliate-carousel
+   Post Threads yang tembus (1.000+ likes) dijadiin carousel IG + TikTok, slide terakhir CTA affiliate bertag.
+
+6. learning-loop-threads
+   2x seminggu baca angka semua post (median, yang paling tinggi), ubah "aturan aktif" maksimal 2 hal, isi bank topik.
+
+7. context-profile-builder
+   Bikin profil akun + audiens (ICP) dari 1 jawaban + riset. Jadi pondasi semua tulisan.
+
+8. threads-organic-growth
+   Aturan main algoritma Threads: jam posting, struktur, cara balas komen, topik tag.
+
+9. organic-social-engine
+   Mesin harian: cek antrean, isi jadwal, verifikasi, belajar dari yang perform.
+
+Cara mulai: bikin 1 skill dulu (paling gampang content-research), pakai seminggu, baru tambah yang lain.
